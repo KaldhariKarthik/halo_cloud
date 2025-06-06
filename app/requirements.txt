@@ -1,0 +1,51 @@
+
+# Core dependencies
+fastapi
+uvicorn
+
+# Machine Learning / YOLOv5
+torch==2.1.2
+torchvision==0.16.1
+numpy
+
+# OpenCV (headless for server environments)
+opencv-python-headless
+
+# WebSocket client support (optional, for testing)
+websockets
+
+# Dependencies required by YOLOv5 utilities
+matplotlib
+pillow
+pyyaml
+scipy
+tqdm
+psutil
+requests
+ultralytics
+
+# Core dependencies
+fastapi
+uvicorn
+
+# Machine Learning / YOLOv5
+torch==2.1.2
+torchvision==0.16.1
+numpy
+
+# OpenCV (headless for server environments)
+opencv-python-headless
+
+# WebSocket client support (optional, for testing)
+websockets
+
+# Dependencies required by YOLOv5 utilities
+matplotlib
+pillow
+pyyaml
+scipy
+tqdm
+psutil
+requests
+ultralytics
+

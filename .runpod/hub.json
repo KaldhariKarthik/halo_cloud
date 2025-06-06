@@ -1,0 +1,15 @@
+{
+  "title": "HALO WebSocket Detector",
+  "description": "FastAPI + YOLOv5 WebSocket server for real-time object detection.",
+  "type": "server",
+  "category": "image",
+  "containerDiskInGb": 20,
+  "isGpuRequired": true,
+  "ports": [
+    {
+      "port": 8000,
+      "protocol": "http"
+    }
+  ],
+  "entrypoint": "uvicorn app.main:app --host 0.0.0.0 --port 8000"
+}
